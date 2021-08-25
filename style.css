@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    position: absolute;
+    width: 5%;
+    top: 2%;
+    left: 5%;
+}
+.page{
+    position: relative;
+    height: 100%;
+}
+.t1{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 12%; 
+    text-align: center;
+    font-size: 3.5em;
+    color: rgb(231, 97, 19);
+}
+.t2{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%; 
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(6, 19, 75);
+}
+.hide1{
+    position: absolute;
+    top: 32%;
+    width: 13%;
+    left: 15%;
+
+}
+.hide2{
+    position: absolute;
+    top: 32%;
+    width: 13%;
+    left: 35%;
+
+}
+.hide3{
+    position: absolute;
+    top: 52%;
+    width: 13%;
+    left: 52%;
+
+}
+.hide4{
+    position: absolute;
+    top: 52%;
+    width: 13%;
+    left: 72%;
+}
+.t3{
+    position: absolute;
+    left: 20%;
+    top: 72%;
+    font-size: 1.2em;
+}
+.t4{
+    position: absolute;
+    left: 52%;
+    top: 39%;
+    font-size: 1.2em;
+}
+.navigation{
+    position: absolute;
+    top: -6%;
+    left: 25%;
+    font-size: 1.5em;
+}
+.nav{
+    display: flex;
+}
+.nav li{
+    margin: 3em;
+}
+.footer{
+    position: absolute;
+    top: 50%;
+    left: -10%;
+}
+.foot{
+    display: flex;
+    transform: rotate(-90deg);
+}
+.foot li{
+    margin: 2em;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .footer{
+        left: -15%;
+    }
+    .t3{
+        left: 10%;
+        top: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .t3{
+        top: 55%;
+    }
+    .t4,.t3,.t2{
+        font-size: 150%;
+    }
+    .footer{
+        top: 40%;
+    }
+    .hide4,.hide3,.hide2,.hide1{
+        width: 16.5%;
+    }
+    .navigation{
+        top: 0%;
+    }
+}
